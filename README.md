@@ -7,3 +7,6 @@
 3. Run `npm install` in the terminal.
 4. Run `node app.js`.
 5. Open http://localhost:3000/temperature
+
+
+The application deployed at https://home-monitor-server.firebaseapp.com/temperature

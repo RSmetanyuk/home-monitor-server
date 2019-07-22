@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/temperature', (req, res) => {
   res.send({
-    'time': Date.now,
+    'time': Date.now(),
     'temperature': 23
   });
 });
