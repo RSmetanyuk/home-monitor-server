@@ -1,10 +1,2 @@
 # dependencies
 node_modules
-
-# firebase hosting
-.firebase
-functions
-public
-.firebaserc
-firebase-debug.log
-firebase.json
