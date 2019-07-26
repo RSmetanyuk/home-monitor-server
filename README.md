@@ -9,4 +9,4 @@
 5. Open http://localhost:3000/temperature
 
 
-The application deployed at 
+The application deployed at https://home-monitor-server.herokuapp.com/temperature

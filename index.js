@@ -6,10 +6,6 @@ const port = process.env.PORT || 3000;
 
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send("Server is working.");
-});
-
 app.get('/temperature', (req, res) => {
   res.send([{
     'time': Date.now(),
