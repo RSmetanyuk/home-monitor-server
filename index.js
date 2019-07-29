@@ -10,9 +10,9 @@ const server = http.createServer(app);
 const io = socketIO(server)
 const port = process.env.PORT || 5000;
 
-app.get('/', (req, res) => res.send(`The server is listening on port ${port}`));
+//app.get('/', (req, res) => res.send(`The server is listening on port ${port}`));
 
-io.origins('*:*');
+//io.origins('*:*');
 
 io.on('connection', socket => {
   console.log('New client connected');
