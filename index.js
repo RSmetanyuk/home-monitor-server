@@ -1,13 +1,10 @@
 const app = require('express')();
-const cors = require('cors');
 const http = require('http');
 const socketIO = require('socket.io');
 
 const {
   getRandomInt
 } = require('./helpers');
-
-app.use(cors());
 
 const server = http.createServer(app);
 const io = socketIO(server)
