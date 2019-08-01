@@ -24,7 +24,7 @@ io.on('connection', socket => {
       'time': Date.now(),
       'value': getRandomInt(15, 29)
     }),
-    getRandomInt(10000, 30000) //send new temperature every 10s-30s
+    getRandomInt(10000, 100000) //send new temperature every 10s-100s
   );
 });
 
